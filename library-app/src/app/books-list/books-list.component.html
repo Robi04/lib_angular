@@ -1,0 +1,20 @@
+<div>
+  <h1>Books List</h1>
+  <p>Si le détail ne s'affiche pas en cliquant, il faut refresh la page</p>
+  <div id="books-container-grid">
+    <div class="books-container-grid-item" *ngFor="let book of books">
+      <img src="{{ book.cover }}" alt="{{ book.title }}" />
+      <h3>{{ book.title }}</h3>
+      <p>{{ book.author }}</p>
+      <div class="item-details details">
+        <p style="text-align">{{ book.description }}</p>
+        <p>Price : {{ book.price }} euros</p>
+        <p>Rating: {{ book.rating }}/5</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+  console.log("books-list.component.html");
+</script>

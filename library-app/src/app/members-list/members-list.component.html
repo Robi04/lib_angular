@@ -1,0 +1,24 @@
+<h1>Members List:</h1>
+
+<div style="width: 100%">
+  <table style="position: relative; margin-left: auto; margin-right: auto">
+    <caption>
+      Members
+    </caption>
+    <tr>
+      <th scope="col">Id</th>
+      <th scope="col">First Name</th>
+      <th scope="col">Last Name</th>
+      <th scope="col">Address</th>
+      <th scope="col">Phone Number</th>
+    </tr>
+
+    <tr *ngFor="let loan of members">
+      <td>{{ loan.id }}</td>
+      <td>{{ loan.firstname }}</td>
+      <td>{{ loan.lastname }}</td>
+      <td>{{ loan.address }}</td>
+      <td>{{ loan.phone }}</td>
+    </tr>
+  </table>
+</div>

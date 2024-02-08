@@ -1,0 +1,73 @@
+/* You can add global styles to this file, and also import other style files */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  color: inherit;
+}
+
+body {
+  min-height: 100vh;
+  background: linear-gradient(150deg, #143120, black);
+  color: white;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100vw;
+  text-decoration: none;
+  vertical-align: middle;
+  height: 50px;
+  background-color: #00000030;
+}
+
+a {
+  text-decoration: none;
+}
+
+.link {
+  color: inherit;
+  font-size: 25px;
+}
+
+h1 {
+  margin: 50px;
+}
+
+#books-container-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+}
+
+.books-container-grid-item {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #00000030;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+}
+
+img {
+  width: 200px;
+}
+
+.item-details {
+  text-align: justify;
+}
+
+.details {
+  display: none;
+}

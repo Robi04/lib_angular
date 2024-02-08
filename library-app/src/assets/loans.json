@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1,
+        "bookId": 1,
+        "memberId": 1,
+        "date": "2019-01-01",
+        "returned": false
+    },
+    {
+        "id": 2,
+        "bookId": 2,
+        "memberId": 2,
+        "date": "2019-01-01",
+        "returned": false
+    },
+    {
+        "id":3,
+        "bookId": 3,
+        "memberId": 3,
+        "date": "2019-01-01",
+        "returned": true
+    }
+]
